@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
-  --bgColor: #d6d6d6;
-  --accentColor: #2b51fa;
+    --bgColor: rgb(174,238,195);
+  --accentColor: #050404;
   --font: arial;
   --orange: #0EF150;
 }
 
 html,
 body {
-  background-color: var(--bgColor);
+    background-color: var(--bgColor);
+    background: radial-gradient(circle, rgba(174,238,195,1) 0%, rgba(148,157,233,1) 100%);
 }
 
 .head {
